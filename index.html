@@ -17,23 +17,22 @@
    </script>
   <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript">*/ </script> <![endif]-->
 
-    <style>
-    ::-moz-selection {
-      /* Firefox */
-      color: #FFFFFF;
-      background: #00e676;
-    }
-
-    ::selection {
-      color: #FFFFFF;
-      background: #00e676;
-    }
-  </style>
-
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
 
   <style>
+  ::-moz-selection {
+    /* Firefox */
+    color: #FFFFFF;
+    background: #00e676;
+  }
 
+  ::selection {
+    color: #FFFFFF;
+    background: #00e676;
+  }
+  #postlink {
+    text-align: center;
+  }
   </style>
 
 </head>
@@ -46,7 +45,7 @@
     <div class="dashboardcontainer w-container">
       <h1 class="dashh1">Blockgigz</h1>
       <h2 class="dashboardh2">Find jobs to help you start your career in blockchain technology</h2>
-      <a href="jobpost.html"><button class="button col-centered">Post Job</button></a>
+      <a  id="postlink" href="jobpost.html"><button class="button col-centered" id="postjob">Post Job</button></a>
     </div>
     <div class="itemcontainerdash w-container">
       <a class="showallbuttons w-hidden-main w-button" data-ix="shoorting-buttons">Filters</a>
