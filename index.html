@@ -6,7 +6,12 @@
   <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1" name="viewport" />
   <link href="test.css" rel="stylesheet" type="text/css" />
-
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/css/mdb.min.css" rel="stylesheet">
   <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
 <script>
   // Initialize Firebase
@@ -44,7 +49,8 @@
     color: #FFFFFF;
     background: #00e676;
   }
-  #postlink {
+  .btn {
+    background-color: #00e676;
     text-align: center;
   }
   </style>
@@ -59,8 +65,11 @@
     <div class="dashboardcontainer w-container">
       <h1 class="dashh1">Blockgigz</h1>
       <h2 class="dashboardh2">Find jobs to help you start your career in blockchain technology</h2>
-      <a  id="postlink" href="jobpost.html"><button class="button col-centered" id="postjob">Post Job</button></a>
+<div class="text-center py-4 mt-3">
+      <a id="postlink" href="jobpost.html"><button class="btn">Post a Job<i class="fa fa-pencil ml-2"></i></button></a>
+</div>
     </div>
+    <!--
     <div class="itemcontainerdash w-container">
       <a class="showallbuttons w-hidden-main w-button" data-ix="shoorting-buttons">Filters</a>
       <div id="filter" class="filter-menu w-clearfix">
@@ -74,7 +83,7 @@
         <a  data-filter=".internetof" class="button iotbutton w-button">Internet of Things</a>
         <a  data-filter=".social" class="button socialbutton w-button">Social &amp; Content</a>
         <a data-filter=".computwebflow-iconsing" class="button computingbutton w-button">Computing</a>
-
+-->
         <div id="Show" class="movedowndiv"></div>
       </div>
 
@@ -161,34 +170,16 @@
     <div class="wrapper w-container">
       <div class="footer-v5">
         <div class="footer-v5-nav-list">
-          <h6 class="footer-v5-header">Header</h6>
-            <a class="footer-v5-nav-link">link</a>
-            <a class="footer-v5-nav-link">link</a>
-            <a class="footer-v5-nav-link">Link</a>
-            <a class="footer-v5-nav-link">Link</a>
-            <a class="footer-v5-nav-link">Link</a>
-            <a class="footer-v5-nav-link">Link</a>
+          <a href="index.html"><h6 class="footer-v5-header">Home</h6></a>
         </div>
 
         <div class="footer-v5-nav-list">
-          <h6 class="footer-v5-header">Header</h6>
-            <a class="footer-v5-nav-link">Link</a>
-            <a class="footer-v5-nav-link">Link</a>
-            <a class="footer-v5-nav-link">Link</a>
-        </div>
+          <a href="jobpost.html"><h6 class="footer-v5-header">Post a Job</h6></a>
 
-        <div class="footer-v5-nav-list">
-          <h6 class="footer-v5-header">Header</h6>
-            <a class="footer-v5-nav-link">Link</a>
-            <a class="footer-v5-nav-link">Link</a>
         </div>
-
-        <div class="footer-v5-nav-list">
-          <h6 class="footer-v5-header">Header</h6>
-            <a class="footer-v5-nav-link">Link</a></div>
 
         <div class="footer-bottom-v1 fb1b">
-          <p class="footerlegal">Hello from Arkansas</p>
+          <p class="footerlegal">&copy 2018 Blockgigz</p>
         </div>
       </div>
     </div>
