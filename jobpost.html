@@ -85,28 +85,28 @@
     <div class="card-body">
 
         <!-- Default form subscription -->
-        <form action=index.html>
+        <form action="index.html" method = "POST">
             <p class="h4 text-center py-4">Post Job</p>
 
             <!-- Default input name -->
-            <label class="grey-text font-weight-light">Company Name</label>
-            <input type="text" id="defaultFormCardNameEx" class="form-control">
+            <label for="companyName" class="grey-text font-weight-light">Company Name</label>
+            <input type="text" id="defaultFormCardNameEx" class="form-control" name="companyName">
 
             <br>
 
             <!-- Default input email -->
-            <label for="defaultFormCardEmailEx" class="grey-text font-weight-light">Your email</label>
-            <input type="email" id="defaultFormCardEmailEx" class="form-control">
+            <label for="email" class="grey-text font-weight-light">Your email</label>
+            <input type="email" id="defaultFormCardEmailEx" class="form-control" name="email">
 
             <br>
 
-            <label class="grey-text font-weight-light">Job Position</label>
-            <input type="text" id="defaultFormCardNameEx" class="form-control">
+            <label for = "jobPosition" class="grey-text font-weight-light">Job Position</label>
+            <input type="text" id="defaultFormCardNameEx" class="form-control" name="jobPosition">
 
             <br>
 
-            <label for="defaultFormContactMessageEx" class="grey-text font-weight-light">Job Description</label>
-   <textarea type="text" id="defaultFormContactMessageEx" class="form-control" rows="5"></textarea>
+            <label for="jobDescription" class="grey-text font-weight-light">Job Description</label>
+   <textarea type="text" id="defaultFormContactMessageEx" class="form-control" rows="5" name="jobDescription"></textarea>
 
 
 
