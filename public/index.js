@@ -78,15 +78,15 @@ function stripeTokenHandler(token) {
   let pagePayment = token.id;
 
 
-  // firebase.database().ref('app' + pageName).set({
-  //   company: pageCompanyName,
-  //   email: pageEmail,
-  //   jobPosition : pageJobPosition,
-  //   jobDescription: pageJobDescription,
-  //   jobUrl: pageUrl,
-  //   didPay: pagePayment
+  firebase.database().ref('app' + pageName).set({
+    company: pageCompanyName,
+    email: pageEmail,
+    jobPosition : pageJobPosition,
+    jobDescription: pageJobDescription,
+    jobUrl: pageUrl,
+    didPay: pagePayment
 
-  // });
+  });
 
 
   // Submit the form form.submit();
