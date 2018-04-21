@@ -123,7 +123,7 @@
       <p class="h4 text-center py-4">Post Job</p>
 
 
-      <form action="/charge" method="post" id="payment-form">
+      <form action="https://us-central1-blockgigz.cloudfunctions.net/charge" method="post" id="payment-form">
         <!-- Default input name -->
         <label for="username" class="grey-text font-weight-light">Your Name</label>
         <input type="text" id="username" class="form-control" name="username">
@@ -174,7 +174,7 @@
 
 
         <div class="text-center py-4 mt-3">
-          <button class="btn" onclick="writeUserData()" type="submit">Submit
+          <button class="btn" type="submit">Submit
             <i class="fa fa-paper-plane-o ml-2"></i>
           </button>
         </div>
