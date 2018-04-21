@@ -27,7 +27,7 @@ exports.charge = functions.https.onRequest((req, res) => {
     source: token
   })
   .then(customer => stripe.charges.create({
-    amount: 999,
+    amount: 2500,
     description: 'Example charge',
     currency: 'usd',
     customer: customer.id
